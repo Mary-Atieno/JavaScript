@@ -1,0 +1,20 @@
+.amell{
+    background-color: rgb(106, 243, 26);
+    height: 800px;
+    width: 80%;
+    box-sizing: border-box;
+}
+.aria{
+    background-color: brown;
+    height: 200px;
+    width: 60%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.ella{
+    background-color: beige;
+    height: 350px;
+    width: 60%;
+    text-align: center;
+    
+}
