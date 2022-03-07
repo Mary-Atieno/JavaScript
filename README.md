@@ -1,4 +1,5 @@
-# JavaScript# Akan Names
+# JavaScript
+  Akan Names
 
 This is a website that takes people's birthday and weeks that they were born considering the genders as it translates it to the Akan Name.Akan Names are names given to people in Ghana according to their culture.
 
