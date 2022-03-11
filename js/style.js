@@ -1,44 +1,55 @@
-$(document).ready(function(){
-    $("#myBirthDate").mask("8/10/2000");
-});
+const dob = document.querySelector(".editform");
+dob.addEventListener("submit",formCollect);
 
+function formCollect(e) {
+    e.preventDefault();
+    
+    var nom = document.querySelector("input[name=gender]:checked");
 
-function myfunc(days,Name,date,month){
-    var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    var maleAkanNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
-    var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
-    var myBirthday = document.getElementById("myBirthDate").value;
-    var myGender = document.getElementsByName("gender");
-    var dateOfBirth = new Date(myBirthday);
-    var dayOfTheWeek = dateOfBirth.getDay();
-    if(myBirthday === ""){
-        document.getElementById('result').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
-        $('#message').addClass("animated shake");
+    if(nom == null){
+        alert("please put in information")
     }
-    else {
-        for(var i=0;i<myGender.length;i++){
-            if(myGender[i].checked){
-                if(myGender[i].value === "female"){
-                    document.getElementById('result').innerHTML = "<span><i class=\"fa fa-female\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + maleAkanNames[dayOfTheWeek] + "</span>";
-                    $('#message span:first-child').addClass("animated fadeInDown");
-                    $('#message span:last-child').addClass("animated fadeInUp");
-                }
-                else {
-                    document.getElementById('result').innerHTML = "<span><i class=\"fa fa-male\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
-                    $('#message span:first-child').addClass("animated fadeInDown");
-                    $('#message span:last-child').addClass("animated fadeInUp");
-                }
-                break;
-            }    
-            else {
-                document.getElementById('result').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Should Select a Gender Too Determine Your Akan Name!</div>";
-                $('#message').addClass("animated shake");
-            }
+
+    var akan = document.querySelector(".p-3").value;
+
+
+    const cc = akan.slice(0,2);
+    const year = akan.slice(2,4);
+    const month = akan.slice(5,7);
+    const day = akan.slice(8,10);
+
+    const exactDoW = ( ( (cc/4) -2*cc-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7;
+
+    const exactDay = exactDoW.toFixed();
+    var open = document.querySelector("#akanNames");
+
+        var akanMale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+        var akanFemale =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+
+        var akanMale1 = akanMale[exactDay];
+        var akanFemale1 = akanFemale[exactDay];
+
+        if(nom.value == "male"){
+            open.innerHTML = "congratulations your Akan name is " + "  " + akanMale1;
+        }else{
+            open.innerHTML = "congratulations your Akan name is " + "  " + akanFemale1;
         }
-    }
-}
-
-function clearAkanMessage(){
-    document.getElementById('result').innerHTML = "please check your entry";
     
 }
+var formsubmission = document.querySelector("#submit");
+formsubmit.onclick = function(){display()};
+
+function display(){
+    var open1 = document.querySelector(".congratulations");
+    if(open1.style.display == "none"){
+        open1.style.display = "flex";
+    }else{
+        open1.style.display = "flex";
+    }
+
+}
+
+
+
+   
+
