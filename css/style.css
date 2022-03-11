@@ -1,20 +1,48 @@
-.amell{
-    background-color: rgb(106, 243, 26);
-    height: 800px;
-    width: 80%;
+body{
+    background-image: url("../images /si.jpg");
+    background-size: center;
+}
+.nav{
+    /* background-color: aliceblue; */
+    height: 100px;
+    width: 60%;
     box-sizing: border-box;
 }
 .aria{
-    background-color: brown;
-    height: 200px;
+    background-color: rgb(78, 102, 209);
+    color: white;
+    height: 100px;
     width: 60%;
     text-align: center;
     box-sizing: border-box;
 }
 .ella{
     background-color: beige;
-    height: 350px;
-    width: 60%;
+    height: 250px;
+    width: 80%;
     text-align: center;
     
 }
+.ari{ 
+    background-color: rgb(116, 166, 209);
+    height: 300px;
+    width: 80%;
+}
+.editform{
+    height: 400px;
+    width: 90%;
+}
+.congratulations{
+    background-image: url("../images/congrats.jpg");
+    height:350px ;
+    width:700px ;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    display: none;
+    background-position: center;
+}
+#akanNames{
+    width: 75%
+}
+
