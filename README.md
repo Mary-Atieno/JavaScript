@@ -21,7 +21,7 @@ This is a website that takes people's birthday and weeks that they were born con
   HTML.
 
   css.
-  
+
   JavaScript.
 
 ### Installation requirements
@@ -32,7 +32,7 @@ access to either phone,Ipad,computer or laptop.
 #### known Bugs
 
 If you find a bug please tell me here or one can just show me the expected result and how it is done.
-You can also feel free to open a new request.
+You can also feel free to open a new request.{Mary.atieno@student.moringaschool.com}
 
 ##### Live link
 
