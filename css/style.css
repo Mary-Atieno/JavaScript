@@ -35,7 +35,7 @@ body{
     height: 400px;
     width: 90%;
 }
-.congrats{
+/* .congrats{
     height:350px ;
     width:700px ;
     position: absolute;
@@ -49,7 +49,7 @@ body{
     background-size: cover;
     background-position: center;
     
-}
+} */
 #akanNames{
     width: 80%
 }
