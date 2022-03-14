@@ -1,19 +1,31 @@
 # JavaScript
 
+## description
+
   Akan Names
 
 This is a website that takes people's birthday and weeks that they were born considering the genders as it translates it to the Akan Name.Akan Names are names given to people in Ghana according to their culture.
 
+## Table of content
+
+[description]
+
+[technologyused]
+
+[intallation]
+
+[license]
+
 ## Technologies used
 
-  HTML and CSS
-  Awesome images
-  JavaScript
+  HTML.
+  css.
+  JavaScript.
 
-### requirements
+### Installation requirements
 
- JavaScript console
- Jsfiddle
+access to the internet.
+access to either phone,Ipad,computer or laptop.
 
 #### known Bugs
 
@@ -22,7 +34,7 @@ You can also feel free to open a new request.
 
 ##### Live link
 
- my-first-webpage
+ <https://mary-atieno.github.io/JavaScript/>
 
 ###### license
 
