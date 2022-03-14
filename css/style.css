@@ -8,6 +8,7 @@ body{
     height: 100px;
     width: 60%;
     box-sizing: border-box;
+    color: aqua;
 }
 .aria{
     background-color: rgb(78, 102, 209);
@@ -26,7 +27,7 @@ body{
     
 }
 .ari{ 
-    background-color: rgb(116, 166, 209);
+    background-color: rgb(9, 135, 245);
     height: 300px;
     width: 80%;
     color: black;
@@ -35,22 +36,23 @@ body{
     height: 400px;
     width: 90%;
 }
-/* .congrats{
-    height:350px ;
+ .congratulations{
+    /* height:350px ;
     width:700px ;
     position: absolute;
     left: 300px;
     top: 300px;
-    display: none;
+    display: none; */
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
     background-image: url("../images /congratulations.jpg");
     background-size: cover;
-    background-position: center;
+    color: rgb(245, 8, 8);
+    /* background-position: center; */
     
 } */
 #akanNames{
-    width: 80%
+    width: 100px
 }
 
