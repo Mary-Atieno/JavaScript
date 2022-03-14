@@ -8,13 +8,13 @@ This is a website that takes people's birthday and weeks that they were born con
 
 ## Table of content
 
-[description]
+[description](#description)
 
-[technologyused]
+[technologies-used](#technologies-used)
 
-[intallation]
+[intallation](#installation)
 
-[license]
+[license](#license)
 
 ## Technologies used
 
