@@ -1,6 +1,7 @@
 body{
     background-image: url("../images /si.jpg");
     background-size: center;
+    color: rgb(236, 9, 9);
 }
 .nav{
     /* background-color: aliceblue; */
@@ -21,28 +22,35 @@ body{
     height: 250px;
     width: 80%;
     text-align: center;
+    color: black;
     
 }
 .ari{ 
     background-color: rgb(116, 166, 209);
     height: 300px;
     width: 80%;
+    color: black;
 }
 .editform{
     height: 400px;
     width: 90%;
 }
-.congratulations{
-    background-image: url("../images/congrats.jpg");
+.congrats{
     height:350px ;
     width:700px ;
     position: absolute;
     left: 300px;
     top: 300px;
     display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    background-image: url("../images /congratulations.jpg");
+    background-size: cover;
     background-position: center;
+    
 }
 #akanNames{
-    width: 75%
+    width: 80%
 }
 
