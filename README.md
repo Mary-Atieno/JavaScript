@@ -19,7 +19,9 @@ This is a website that takes people's birthday and weeks that they were born con
 ## Technologies used
 
   HTML.
+
   css.
+  
   JavaScript.
 
 ### Installation requirements
